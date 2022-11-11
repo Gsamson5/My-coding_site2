@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 50px;
+    margin-right: 30px;
+    background-color: black;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.911);
+
+}
+
+.img-1 {
+    max-width: 5%;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.img-disp {
+    float: left;
+}
+
+ul {
+    float: left;
+    
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: black;
+    margin-left: 160px; 
+}
+
+.main {
+    background-color: rgb(5, 10, 48);
+    position: relative;
+    height: 600px;
+}
+
+.img-2 {
+    max-width: 5%;
+    display: block;
+    margin: 0 auto;
+   /* position: absolute;
+    top: 0;
+    left: 600px;
+    */
+}
+
+.img-3 {
+    max-width: 30%;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    transform: rotateY(180deg);
+}
+
+.form {
+    background-color: rgb(4, 17, 117);
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 10px;
+    width: 350px;
+    height: 600px;
+    line-height: 40px;
+}
+
+.form-text {
+    padding: 10px 0;
+    color: white;
+}
+
+.select {
+    width: 300px;
+    border: 2px solid rgb(243, 142, 10);
+    padding: 10px 20px;
+}
+
+input[type] {
+    width: 300px;
+    border: 2px solid rgb(243, 142, 10);
+    padding: 10px 20px;
+}
+
+.form-text-2 {
+    margin-top: 20px;
+    color: white;
+    font-size: small;
+}
+
+.form-link {
+    text-decoration: none;
+    color: rgb(82, 100, 235);
+}
+
+#submit {
+    width: 150px;
+    background-color: yellow;
+    text-align: center;
+    margin-left: 80px;
+
+}
+
+.icon {
+    font-size: 20px;
+    position: absolute;
+    top: 440px;
+    left: 420px;
+    color: rgb(243, 142, 10);;
+}
+
+.span-1 {
+    width: 100px;
+    height: 3px;
+    background-color: rgb(243, 142, 10);;
+    display: inline-block;
+}
+
+.span-2 {
+    position: absolute;
+    top: 450px;
+    left: 450px; 
+}
+
+.span-3 {
+    position: absolute;
+    top: 450px;
+    left: 310px;
+}
+
+#Ex {
+    border: none;
+}
